@@ -2,6 +2,8 @@ node_modules/
 coverage/
 test-results/
 docs/
+/AGENTS.md
+/.agent/
 /package.json
 *.log
 .DS_Store
