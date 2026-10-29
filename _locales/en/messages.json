@@ -1,0 +1,156 @@
+{
+  "extName": {
+    "message": "YouTube Floating Subtitles"
+  },
+  "extDescription": {
+    "message": "Follow YouTube captions while browsing other tabs."
+  },
+  "openControls": {
+    "message": "Open floating subtitle controls"
+  },
+  "appTitle": {
+    "message": "Floating Subtitles"
+  },
+  "checking": {
+    "message": "Checking…"
+  },
+  "sourceLabel": {
+    "message": "Source YouTube video"
+  },
+  "sourceHint": {
+    "message": "Select a video tab, enable floating subtitles, then switch to your work tab."
+  },
+  "start": {
+    "message": "Enable floating subtitles from this tab"
+  },
+  "stop": {
+    "message": "Stop floating subtitles"
+  },
+  "captionLanguage": {
+    "message": "Caption language"
+  },
+  "noSource": {
+    "message": "No source video selected"
+  },
+  "fontSize": {
+    "message": "Font size"
+  },
+  "backgroundOpacity": {
+    "message": "Background opacity"
+  },
+  "reset": {
+    "message": "Restore default layout"
+  },
+  "hint": {
+    "message": "Switch to another tab to see captions. Hover over the overlay to move or resize it. Browser internal pages are not supported."
+  },
+  "move": {
+    "message": "Move"
+  },
+  "dragToMove": {
+    "message": "Drag to move"
+  },
+  "smallerFont": {
+    "message": "Decrease font size"
+  },
+  "largerFont": {
+    "message": "Increase font size"
+  },
+  "resizeTitle": {
+    "message": "Drag to resize"
+  },
+  "openVideoFirst": {
+    "message": "Open a YouTube video first"
+  },
+  "youtubeVideo": {
+    "message": "YouTube video"
+  },
+  "reloadCaptions": {
+    "message": "Reload captions from this tab"
+  },
+  "idle": {
+    "message": "Open a YouTube video, then enable floating subtitles."
+  },
+  "loadingCaptions": {
+    "message": "Loading YouTube captions…"
+  },
+  "fallbackStatus": {
+    "message": "Reading displayed captions: $VALUE$. Enable CC on YouTube if no text appears.",
+    "placeholders": {
+      "value": {
+        "content": "$1"
+      }
+    }
+  },
+  "followingStatus": {
+    "message": "Following: $VALUE$",
+    "placeholders": {
+      "value": {
+        "content": "$1"
+      }
+    }
+  },
+  "automaticSuffix": {
+    "message": " (automatic)"
+  },
+  "stopping": {
+    "message": "Stopping floating subtitles…"
+  },
+  "connecting": {
+    "message": "Connecting to the YouTube tab…"
+  },
+  "connectionError": {
+    "message": "Cannot connect to the extension. Reload it from the extensions page and try again. ($VALUE$)",
+    "placeholders": {
+      "value": {
+        "content": "$1"
+      }
+    }
+  },
+  "stateError": {
+    "message": "Cannot read the extension status: $VALUE$",
+    "placeholders": {
+      "value": {
+        "content": "$1"
+      }
+    }
+  },
+  "startupFailed": {
+    "message": "Could not start the extension."
+  },
+  "reloadError": {
+    "message": "Reload the extension from the extensions page. Details: $VALUE$",
+    "placeholders": {
+      "value": {
+        "content": "$1"
+      }
+    }
+  },
+  "invalidSource": {
+    "message": "Open a video at www.youtube.com/watch and try again."
+  },
+  "noSourcePermission": {
+    "message": "Cannot run on this YouTube tab. Allow the extension to access youtube.com in the extension settings and try again."
+  },
+  "reloadSource": {
+    "message": "Refresh the YouTube tab after installing the extension and try again."
+  },
+  "invalidTrack": {
+    "message": "Invalid caption track."
+  },
+  "captionReadFailed": {
+    "message": "Could not read YouTube captions. Refresh the tab and try again."
+  },
+  "videoChanging": {
+    "message": "The video is changing. Enable subtitles again after it finishes loading."
+  },
+  "regularVideo": {
+    "message": "Open a regular YouTube video."
+  },
+  "liveUnsupported": {
+    "message": "Livestreams are not supported."
+  },
+  "noCaptions": {
+    "message": "This video has no caption tracks."
+  }
+}

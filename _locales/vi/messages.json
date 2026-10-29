@@ -1,0 +1,156 @@
+{
+  "extName": {
+    "message": "Phụ đề nổi YouTube"
+  },
+  "extDescription": {
+    "message": "Theo dõi phụ đề YouTube khi chuyển sang tab khác."
+  },
+  "openControls": {
+    "message": "Mở bảng điều khiển phụ đề nổi"
+  },
+  "appTitle": {
+    "message": "Phụ đề nổi"
+  },
+  "checking": {
+    "message": "Đang kiểm tra…"
+  },
+  "sourceLabel": {
+    "message": "Video YouTube nguồn"
+  },
+  "sourceHint": {
+    "message": "Chọn tab video, bật phụ đề nổi rồi chuyển sang tab muốn làm việc."
+  },
+  "start": {
+    "message": "Bật phụ đề nổi từ tab này"
+  },
+  "stop": {
+    "message": "Tắt phụ đề nổi"
+  },
+  "captionLanguage": {
+    "message": "Ngôn ngữ phụ đề"
+  },
+  "noSource": {
+    "message": "Chưa có video nguồn"
+  },
+  "fontSize": {
+    "message": "Cỡ chữ"
+  },
+  "backgroundOpacity": {
+    "message": "Độ mờ nền"
+  },
+  "reset": {
+    "message": "Khôi phục giao diện mặc định"
+  },
+  "hint": {
+    "message": "Chuyển sang tab khác để xem phụ đề. Rê chuột vào khung để di chuyển hoặc đổi chiều rộng. Không hỗ trợ trang nội bộ trình duyệt."
+  },
+  "move": {
+    "message": "Di chuyển"
+  },
+  "dragToMove": {
+    "message": "Kéo để di chuyển"
+  },
+  "smallerFont": {
+    "message": "Giảm cỡ chữ"
+  },
+  "largerFont": {
+    "message": "Tăng cỡ chữ"
+  },
+  "resizeTitle": {
+    "message": "Kéo để đổi chiều rộng"
+  },
+  "openVideoFirst": {
+    "message": "Hãy mở một video YouTube trước"
+  },
+  "youtubeVideo": {
+    "message": "Video YouTube"
+  },
+  "reloadCaptions": {
+    "message": "Đọc lại phụ đề từ tab này"
+  },
+  "idle": {
+    "message": "Mở video YouTube, rồi bấm bật phụ đề nổi."
+  },
+  "loadingCaptions": {
+    "message": "Đang đọc phụ đề YouTube…"
+  },
+  "fallbackStatus": {
+    "message": "Đang đọc phụ đề hiển thị: $VALUE$. Nếu chưa thấy chữ, hãy bật CC trên YouTube.",
+    "placeholders": {
+      "value": {
+        "content": "$1"
+      }
+    }
+  },
+  "followingStatus": {
+    "message": "Đang theo dõi: $VALUE$",
+    "placeholders": {
+      "value": {
+        "content": "$1"
+      }
+    }
+  },
+  "automaticSuffix": {
+    "message": " (tự động)"
+  },
+  "stopping": {
+    "message": "Đang tắt phụ đề nổi…"
+  },
+  "connecting": {
+    "message": "Đang kết nối với tab YouTube…"
+  },
+  "connectionError": {
+    "message": "Không kết nối được extension. Mở trang quản lý tiện ích, bấm tải lại tiện ích rồi thử lại. ($VALUE$)",
+    "placeholders": {
+      "value": {
+        "content": "$1"
+      }
+    }
+  },
+  "stateError": {
+    "message": "Không đọc được trạng thái extension: $VALUE$",
+    "placeholders": {
+      "value": {
+        "content": "$1"
+      }
+    }
+  },
+  "startupFailed": {
+    "message": "Không khởi động được extension."
+  },
+  "reloadError": {
+    "message": "Mở trang quản lý tiện ích và bấm tải lại tiện ích. Chi tiết: $VALUE$",
+    "placeholders": {
+      "value": {
+        "content": "$1"
+      }
+    }
+  },
+  "invalidSource": {
+    "message": "Hãy mở video trên www.youtube.com/watch rồi thử lại."
+  },
+  "noSourcePermission": {
+    "message": "Không thể chạy trên tab YouTube. Hãy cho phép tiện ích truy cập youtube.com trong phần quản lý tiện ích, rồi thử lại."
+  },
+  "reloadSource": {
+    "message": "Hãy tải lại tab YouTube sau khi cài extension rồi thử lại."
+  },
+  "invalidTrack": {
+    "message": "Track phụ đề không hợp lệ."
+  },
+  "captionReadFailed": {
+    "message": "Không đọc được phụ đề YouTube. Hãy tải lại tab rồi thử lại."
+  },
+  "videoChanging": {
+    "message": "Video đang chuyển. Hãy bật lại phụ đề sau khi video tải xong."
+  },
+  "regularVideo": {
+    "message": "Hãy mở một video YouTube thông thường."
+  },
+  "liveUnsupported": {
+    "message": "Bản này chưa hỗ trợ video livestream."
+  },
+  "noCaptions": {
+    "message": "Video này không có track phụ đề."
+  }
+}

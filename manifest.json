@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "__MSG_extName__",
+  "version": "1.0.7",
+  "default_locale": "en",
+  "description": "__MSG_extDescription__",
+  "permissions": ["storage", "scripting"],
+  "host_permissions": ["http://*/*", "https://*/*"],
+  "background": { "service_worker": "src/background/background.js" },
+  "action": { "default_popup": "src/popup/popup.html", "default_title": "__MSG_extName__" },
+  "options_ui": { "page": "src/popup/popup.html", "open_in_tab": true },
+  "commands": {
+    "open-controls": {
+      "suggested_key": { "default": "Ctrl+Shift+Y", "mac": "Command+Shift+Y" },
+      "description": "__MSG_openControls__"
+    }
+  },
+  "content_scripts": [
+    { "matches": ["https://www.youtube.com/*"], "js": ["src/youtube/youtube-background.js", "src/youtube/youtube-bridge.js"], "world": "MAIN", "run_at": "document_start" },
+    { "matches": ["http://*/*", "https://*/*"], "js": ["src/shared/core.js", "src/shared/runtime.js", "src/shared/i18n.js", "src/content/overlay.js"], "run_at": "document_idle" },
+    { "matches": ["https://www.youtube.com/*"], "js": ["src/content/source.js"], "run_at": "document_idle" }
+  ]
+}

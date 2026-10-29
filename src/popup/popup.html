@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title data-i18n="appTitle">Floating Subtitles</title><link rel="stylesheet" href="popup.css"></head>
+<body>
+  <header><span class="mark">CC</span><div><h1 data-i18n="appTitle">Floating Subtitles</h1><p>YouTube · Chrome & Cốc Cốc</p></div></header>
+  <p id="status" role="status" data-i18n="checking">Checking…</p>
+  <p id="error" role="alert" hidden></p>
+  <div id="sourcePicker" hidden><label for="sourceTab" data-i18n="sourceLabel">Source YouTube video</label><select id="sourceTab"></select><p class="hint" data-i18n="sourceHint">Select a video tab, enable floating subtitles, then switch to your work tab.</p></div>
+  <button id="start" class="primary" disabled data-i18n="start">Enable floating subtitles from this tab</button>
+  <button id="stop" class="secondary" hidden data-i18n="stop">Stop floating subtitles</button>
+  <label for="track" data-i18n="captionLanguage">Caption language</label><select id="track" disabled><option data-i18n="noSource">No source video selected</option></select>
+  <div class="setting"><label for="fontSize" data-i18n="fontSize">Font size</label><output id="fontValue"></output></div>
+  <input id="fontSize" type="range" min="16" max="64" step="2">
+  <div class="setting"><label for="opacity" data-i18n="backgroundOpacity">Background opacity</label><output id="opacityValue"></output></div>
+  <input id="opacity" type="range" min="0" max="100" step="5">
+  <button id="reset" class="secondary" data-i18n="reset">Restore default layout</button>
+  <p class="hint" data-i18n="hint">Switch to another tab to see captions. Hover over the overlay to move or resize it. Browser internal pages are not supported.</p>
+  <script src="../shared/core.js"></script><script src="../shared/i18n.js"></script><script src="popup.js"></script>
+</body>
+</html>
